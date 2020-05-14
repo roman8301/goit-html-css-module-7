@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>HW - module 7</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <nav class="nav-site container">
+        <a href="#" class="site-logo">golden</a>
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <a href="#" class="nav-list__link">about</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#services" class="nav-list__link">services</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#" class="nav-list__link">portfolio</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#" class="nav-list__link">about</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#contact" class="nav-list__link">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <!-- Services -->
+      <section class="services container" id="services">
+        <div class="section-title__wrapper">
+          <h2 class="title-section">services</h2>
+          <p class="descrition-section">proin iaculis purus consequat sem cure.</p>
+        </div>
+        <ul class="services-list">
+          <li class="services-list__item icon-basket">
+            <h3 class="services-list__item__title">e-commerce</h3>
+            <p class="services-list__item__description">
+              Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+            </p>
+          </li>
+          <li class="services-list__item icon-laptop">
+            <h3 class="services-list__item__title">responsive web</h3>
+            <p class="services-list__item__description">
+              Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+            </p>
+          </li>
+          <li class="services-list__item icon-lock">
+            <h3 class="services-list__item__title">web security</h3>
+            <p class="services-list__item__description">
+              Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- Contact -->
+      <section class="contact" id="contact">
+        <div class="section-title__wrapper">
+          <h2 class="title-section color">contact us</h2>
+          <p class="descrition-section">proin iaculis purus consequat sem cure.</p>
+        </div>
+        <!-- Contact-form -->
+        <form action="#" class="form container">
+          <div class="contact-form__wrapper">
+            <ul class="contact-form__list">
+              <li class="contact-form__list__item">
+                <input class="contact-form__input" minlength="2" maxlength="20" name="user_name" type="text" placeholder="your name *" required />
+              </li>
+              <li class="contact-form__list__item">
+                <input class="contact-form__input" name="user_email" type="email" placeholder="your e-mail *" required />
+              </li>
+              <li class="contact-form__list__item">
+                <input class="contact-form__input" name="user_subject" type="text" placeholder="subject" />
+              </li>
+            </ul>
+            <textarea class="message" name="user_massage" minlength="10" maxlength="200" placeholder="Your message *" required></textarea>
+          </div>
+          <button class="form-button">send message</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
