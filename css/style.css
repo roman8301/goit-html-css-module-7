@@ -225,12 +225,6 @@ a {
   margin-bottom: 30px;
 }
 
-.contact-form__list {
-}
-
-.contact-form__list__item {
-}
-
 .contact-form__list__item:not(:last-child) {
   margin-bottom: 30px;
 }
